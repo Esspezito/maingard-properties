@@ -66,7 +66,7 @@ export default function Hero({ agentName, agentTitle, agentCompany, agentPhone, 
             className="mb-6"
           >
             <motion.h1 
-              className="text-5xl md:text-7xl font-bold font-poppins text-white mb-4 perspective-1000 tracking-tight"
+              className="text-3xl sm:text-4xl md:text-7xl font-bold font-poppins text-white mb-4 perspective-1000 tracking-tight"
               initial={{ rotateX: -90, opacity: 0, z: -100 }}
               animate={{ 
                 rotateX: 0, 

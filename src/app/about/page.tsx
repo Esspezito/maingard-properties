@@ -31,7 +31,7 @@ export default function AboutPage() {
               <AvatarFallback>MM</AvatarFallback>
             </Avatar>
             
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">{agentProfile.name}</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">{agentProfile.name}</h1>
             <p className="text-xl text-muted-foreground mb-2">{agentProfile.title}</p>
             <p className="text-lg text-muted-foreground mb-6">{agentProfile.company}</p>
             
@@ -183,7 +183,7 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto text-center"
           >
-            <h2 className="text-3xl font-bold mb-8">Why Choose Michael Maingard?</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-8">Why Choose Michael Maingard?</h2>
             
             <div className="grid md:grid-cols-3 gap-8">
               <div>
