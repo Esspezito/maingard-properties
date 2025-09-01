@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Menu, X, Phone, Home, User } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/lib/utils';
+import { ThemeToggle } from '@/components/theme-toggle';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,6 +58,7 @@ export default function Navigation() {
               <User className="h-4 w-4" />
               <span>About</span>
             </Link>
+            <ThemeToggle />
             <Button 
               variant={isScrolled ? "default" : "secondary"}
               size="sm"
@@ -69,16 +71,19 @@ export default function Navigation() {
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            className={cn(
-              "md:hidden transition-colors",
-              isScrolled ? "text-foreground" : "text-white"
-            )}
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+          {/* Mobile: Theme Toggle and Menu Button */}
+          <div className="md:hidden flex items-center space-x-2">
+            <ThemeToggle />
+            <button
+              className={cn(
+                "transition-colors",
+                isScrolled ? "text-foreground" : "text-white"
+              )}
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
         </div>
       </div>
 
