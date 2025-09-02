@@ -158,20 +158,20 @@ export const mockProperties: Property[] = [
     bathrooms: 2,
     area: "80 m²",
     type: "Apartment",
-    status: "available",
+    status: "under-offer",
     images: [
-      "https://images.prop24.com/342123456/Ensure960x540",
-      "https://images.prop24.com/342123457/Ensure960x540",
-      "https://images.prop24.com/342123458/Ensure960x540"
+      "https://images.prop24.com/350912456/Ensure960x540",
+      "https://images.prop24.com/350912457/Ensure960x540",
+      "https://images.prop24.com/350912458/Ensure960x540"
     ],
     description: "Experience luxury living in this premier two-bedroom, two-bathroom apartment situated on the top floor of the esteemed SIX ON N development.",
     features: [
-      "Top Floor Unit",
+      "Top Floor Position",
       "Panoramic Sea Views",
       "High Ceilings",
-      "Smeg Kitchen",
-      "Rooftop Pool",
-      "Secure Parking"
+      "Expansive Balcony",
+      "Smeg Kitchen Appliances",
+      "Rooftop Pool"
     ],
     source: "property24",
     sourceUrl: "https://www.property24.com/for-sale/sea-point/cape-town/western-cape/11021/115547249",
@@ -189,17 +189,17 @@ export const mockProperties: Property[] = [
     type: "Apartment",
     status: "available",
     images: [
-      "https://images.prop24.com/340234567/Ensure960x540",
-      "https://images.prop24.com/340234568/Ensure960x540",
-      "https://images.prop24.com/340234569/Ensure960x540"
+      "https://images.prop24.com/350908862/Ensure960x540",
+      "https://images.prop24.com/350908863/Ensure960x540",
+      "https://images.prop24.com/350908864/Ensure960x540"
     ],
-    description: "Welcome to this generously sized 37-square-meter studio apartment located at the prestigious SIX ON N development in Sea Point.",
+    description: "Welcome to this generously sized 37-square-meter studio apartment located at the prestigious SIX ON N development in Sea Point. This modern unit boasts a 6-square-meter balcony, offering views of the Atlantic Ocean.",
     features: [
-      "Ocean View Balcony",
+      "Ocean Views",
+      "6m² Balcony",
       "Premium Smeg Kitchen",
       "Rooftop Pool",
       "Fitness Studio",
-      "Dedicated Parking",
       "Furnished"
     ],
     source: "property24",
@@ -222,14 +222,14 @@ export const mockProperties: Property[] = [
       "https://images.prop24.com/342699098/Ensure960x540",
       "https://images.prop24.com/342699099/Ensure960x540"
     ],
-    description: "Welcome to Lisdale, where luxury meets the ocean's edge, offering an unparalleled lifestyle with panoramic sea views.",
+    description: "Exquisite Beachfront Living with Unrivalled Elegance. Panoramic sea views with open-plan living area, generous balcony, and high-end kitchen appliances.",
     features: [
       "Beachfront Location",
       "Panoramic Sea Views",
-      "Secure Double Garage",
       "Pet Friendly",
+      "24-Hour Security",
       "Underfloor Heating",
-      "High-end Kitchen"
+      "Secure Double Garage"
     ],
     source: "property24",
     sourceUrl: "https://www.property24.com/for-sale/sea-point/cape-town/western-cape/11021/115005405",
