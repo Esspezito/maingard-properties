@@ -158,20 +158,20 @@ export const mockProperties: Property[] = [
     bathrooms: 2,
     area: "80 m²",
     type: "Apartment",
-    status: "under-offer",
+    status: "available",
     images: [
-      "https://images.prop24.com/350912456/Ensure960x540",
-      "https://images.prop24.com/350912457/Ensure960x540",
-      "https://images.prop24.com/350912458/Ensure960x540"
+      "https://images.prop24.com/350769338/Ensure960x540",
+      "https://images.prop24.com/350769339/Ensure960x540",
+      "https://images.prop24.com/350769340/Ensure960x540"
     ],
     description: "Experience luxury living in this premier two-bedroom, two-bathroom apartment situated on the top floor of the esteemed SIX ON N development.",
     features: [
-      "Top Floor Position",
-      "Panoramic Sea Views",
       "High Ceilings",
       "Expansive Balcony",
-      "Smeg Kitchen Appliances",
-      "Rooftop Pool"
+      "Panoramic Sea Views",
+      "Modern Kitchen with Smeg Appliances",
+      "Rooftop Pool",
+      "Furnished"
     ],
     source: "property24",
     sourceUrl: "https://www.property24.com/for-sale/sea-point/cape-town/western-cape/11021/115547249",
