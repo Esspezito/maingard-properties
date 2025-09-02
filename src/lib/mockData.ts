@@ -35,7 +35,7 @@ export const agentProfile: AgentProfile = {
 export const mockProperties: Property[] = [
   {
     id: "116371868",
-    title: "Sea Point Apartment – Ideal Starter Home or Investment",
+    title: "1 Bedroom Apartment / Flat for Sale in Sea Point",
     price: "R 2,695,000",
     location: "Sea Point, Cape Town",
     bedrooms: 1,
@@ -44,18 +44,18 @@ export const mockProperties: Property[] = [
     type: "Apartment",
     status: "available",
     images: [
-      "https://images.prop24.com/363924502/Crop600x400",
-      "https://images.prop24.com/363924503/Crop600x400",
-      "https://images.prop24.com/363924504/Crop600x400"
+      "https://images.prop24.com/363924502/Ensure960x540",
+      "https://images.prop24.com/363924503/Ensure960x540",
+      "https://images.prop24.com/363924504/Ensure960x540"
     ],
-    description: "This compact 1-bedroom apartment in Sea Point offers excellent potential as a starter home or investment property. Located in one of Cape Town's most vibrant neighborhoods, it provides easy access to the beach, restaurants, and entertainment.",
+    description: "Sea Point Apartment – Ideal Starter Home or Investment. This neat one-bedroom, one-bathroom apartment is perfectly positioned just off Ocean View Drive.",
     features: [
-      "1 Bedroom",
+      "Secure Parking Bay",
+      "Outdoor Area",
+      "Pet Friendly",
+      "Garden",
       "Starter Home",
-      "Investment Potential",
-      "Sea Point Location",
-      "Close to Beach",
-      "Urban Lifestyle"
+      "Investment Potential"
     ],
     source: "property24",
     sourceUrl: "https://www.property24.com/for-sale/sea-point/cape-town/western-cape/11021/116371868",
@@ -64,7 +64,7 @@ export const mockProperties: Property[] = [
   },
   {
     id: "115918489",
-    title: "Beautifully Finished Apartment in SIX ON N Development",
+    title: "1 Bedroom Apartment / Flat for Sale in Sea Point",
     price: "R 2,695,000",
     location: "Sea Point, Cape Town",
     bedrooms: 1,
@@ -73,18 +73,18 @@ export const mockProperties: Property[] = [
     type: "Apartment",
     status: "available",
     images: [
-      "https://images.prop24.com/350908862/Crop600x400",
-      "https://images.prop24.com/350908863/Crop600x400",
-      "https://images.prop24.com/350908864/Crop600x400"
+      "https://images.prop24.com/350908862/Ensure960x540",
+      "https://images.prop24.com/350908863/Ensure960x540",
+      "https://images.prop24.com/350908864/Ensure960x540"
     ],
-    description: "This beautifully finished apartment in the prestigious SIX ON N development offers modern living in Sea Point's most sought-after location. Perfect for young professionals or as an investment property.",
+    description: "Part of BLOK's SIX ON N development. Located in vibrant Sea Point neighborhood. 31m² internal space + 4m² private balcony with views of Lion's Head.",
     features: [
       "SIX ON N Development",
-      "Modern Finishes",
-      "Secure Building",
-      "Sea Point Location",
-      "Investment Opportunity",
-      "Lock-up and Go"
+      "Lion's Head Views",
+      "Rooftop Pool",
+      "Fully Equipped Gym",
+      "Concierge Services",
+      "Furnished"
     ],
     source: "property24",
     sourceUrl: "https://www.property24.com/for-sale/sea-point/cape-town/western-cape/11021/115918489",
@@ -93,27 +93,27 @@ export const mockProperties: Property[] = [
   },
   {
     id: "115884636",
-    title: "Top Floor Apartment with Ocean Views – A Rare Sea Point Gem",
+    title: "2 Bedroom Apartment / Flat for Sale in Sea Point",
     price: "R 4,250,000",
     location: "Sea Point, Cape Town",
     bedrooms: 2,
     bathrooms: 1,
     area: "89 m²",
     type: "Apartment",
-    status: "available",
+    status: "under-offer",
     images: [
-      "https://images.prop24.com/355723549/Crop600x400",
-      "https://images.prop24.com/355723550/Crop600x400",
-      "https://images.prop24.com/355723551/Crop600x400"
+      "https://images.prop24.com/355723549/Ensure960x540",
+      "https://images.prop24.com/355723550/Ensure960x540",
+      "https://images.prop24.com/355723551/Ensure960x540"
     ],
-    description: "This top floor apartment offers stunning ocean views and represents a rare gem in Sea Point. With 2 bedrooms and excellent positioning, this property provides the perfect coastal lifestyle with urban convenience.",
+    description: "Top Floor Apartment with Ocean Views – A Rare Sea Point Gem. Located on 8th floor of Geneva Place, owned by same owner since 1970s.",
     features: [
       "Top Floor Position",
       "Ocean Views",
-      "2 Bedrooms",
-      "Rare Sea Point Gem",
-      "Close to Beach",
-      "Prime Location"
+      "Private Storeroom",
+      "Lock-up Garage",
+      "Secure Building",
+      "Sea View Balcony"
     ],
     source: "property24",
     sourceUrl: "https://www.property24.com/for-sale/sea-point/cape-town/western-cape/11021/115884636",
@@ -122,7 +122,7 @@ export const mockProperties: Property[] = [
   },
   {
     id: "115896136",
-    title: "Renovated Corner Apartment with Sea Views in Green Point",
+    title: "2 Bedroom Apartment / Flat for Sale in Green Point",
     price: "R 4,500,000",
     location: "Green Point, Cape Town",
     bedrooms: 2,
@@ -131,18 +131,18 @@ export const mockProperties: Property[] = [
     type: "Apartment",
     status: "available",
     images: [
-      "https://images.prop24.com/355899672/Crop600x400",
-      "https://images.prop24.com/355899673/Crop600x400",
-      "https://images.prop24.com/355899674/Crop600x400"
+      "https://images.prop24.com/355899672/Ensure960x540",
+      "https://images.prop24.com/355899673/Ensure960x540",
+      "https://images.prop24.com/355899674/Ensure960x540"
     ],
-    description: "This renovated corner apartment in Green Point offers spectacular sea views and modern finishes. Located close to the V&A Waterfront, it provides the perfect combination of luxury living and urban convenience.",
+    description: "Renovated Corner Apartment with Sea Views in the Heart of Green Point. Features sea and Signal Hill views with open-plan living and original fireplace.",
     features: [
-      "Corner Position",
+      "Corner Unit",
       "Sea Views",
-      "Renovated",
-      "Green Point Location",
-      "Close to V&A Waterfront",
-      "Modern Finishes"
+      "Signal Hill Views",
+      "Wooden Floors",
+      "Private Patio",
+      "Security Complex"
     ],
     source: "property24",
     sourceUrl: "https://www.property24.com/for-sale/green-point/cape-town/western-cape/11017/115896136",
@@ -151,27 +151,27 @@ export const mockProperties: Property[] = [
   },
   {
     id: "115547249",
-    title: "Prime Sea Point Apartment with Modern Finishes",
-    price: "R 3,200,000",
+    title: "2 Bedroom Apartment / Flat for Sale in Sea Point",
+    price: "R 5,995,000",
     location: "Sea Point, Cape Town",
     bedrooms: 2,
-    bathrooms: 1,
-    area: "75 m²",
+    bathrooms: 2,
+    area: "80 m²",
     type: "Apartment",
     status: "available",
     images: [
-      "https://images.prop24.com/340123456/Crop600x400",
-      "https://images.prop24.com/340123457/Crop600x400",
-      "https://images.prop24.com/340123458/Crop600x400"
+      "https://images.prop24.com/342123456/Ensure960x540",
+      "https://images.prop24.com/342123457/Ensure960x540",
+      "https://images.prop24.com/342123458/Ensure960x540"
     ],
-    description: "Modern 2-bedroom apartment in prime Sea Point location. Features contemporary finishes, great natural light, and close proximity to the beachfront promenade and local amenities.",
+    description: "Experience luxury living in this premier two-bedroom, two-bathroom apartment situated on the top floor of the esteemed SIX ON N development.",
     features: [
-      "Modern Finishes",
-      "2 Bedrooms",
-      "Prime Location",
-      "Close to Beach",
-      "Natural Light",
-      "Sea Point Promenade"
+      "Top Floor Unit",
+      "Panoramic Sea Views",
+      "High Ceilings",
+      "Smeg Kitchen",
+      "Rooftop Pool",
+      "Secure Parking"
     ],
     source: "property24",
     sourceUrl: "https://www.property24.com/for-sale/sea-point/cape-town/western-cape/11021/115547249",
@@ -180,27 +180,27 @@ export const mockProperties: Property[] = [
   },
   {
     id: "115547283",
-    title: "Stylish Sea Point Living with Urban Convenience",
-    price: "R 2,850,000",
+    title: "1 Bedroom Apartment / Flat for Sale in Sea Point",
+    price: "R 2,995,000",
     location: "Sea Point, Cape Town",
     bedrooms: 1,
     bathrooms: 1,
-    area: "52 m²",
+    area: "43 m²",
     type: "Apartment",
     status: "available",
     images: [
-      "https://images.prop24.com/340234567/Crop600x400",
-      "https://images.prop24.com/340234568/Crop600x400",
-      "https://images.prop24.com/340234569/Crop600x400"
+      "https://images.prop24.com/340234567/Ensure960x540",
+      "https://images.prop24.com/340234568/Ensure960x540",
+      "https://images.prop24.com/340234569/Ensure960x540"
     ],
-    description: "Stylish 1-bedroom apartment offering the perfect blend of coastal living and urban convenience. Ideal for young professionals or as a rental investment in Sea Point's vibrant neighborhood.",
+    description: "Welcome to this generously sized 37-square-meter studio apartment located at the prestigious SIX ON N development in Sea Point.",
     features: [
-      "Stylish Design",
-      "Urban Convenience",
-      "Coastal Living",
-      "Investment Potential",
-      "Young Professionals",
-      "Vibrant Neighborhood"
+      "Ocean View Balcony",
+      "Premium Smeg Kitchen",
+      "Rooftop Pool",
+      "Fitness Studio",
+      "Dedicated Parking",
+      "Furnished"
     ],
     source: "property24",
     sourceUrl: "https://www.property24.com/for-sale/sea-point/cape-town/western-cape/11021/115547283",
@@ -209,27 +209,27 @@ export const mockProperties: Property[] = [
   },
   {
     id: "115005405",
-    title: "Exceptional Sea Point Opportunity with Great Potential",
-    price: "R 3,750,000",
+    title: "2 Bedroom Apartment / Flat for Sale in Sea Point",
+    price: "R 11,800,000",
     location: "Sea Point, Cape Town",
     bedrooms: 2,
     bathrooms: 2,
-    area: "95 m²",
+    area: "154 m²",
     type: "Apartment",
     status: "available",
     images: [
-      "https://images.prop24.com/335789123/Crop600x400",
-      "https://images.prop24.com/335789124/Crop600x400",
-      "https://images.prop24.com/335789125/Crop600x400"
+      "https://images.prop24.com/342699097/Ensure960x540",
+      "https://images.prop24.com/342699098/Ensure960x540",
+      "https://images.prop24.com/342699099/Ensure960x540"
     ],
-    description: "Exceptional 2-bedroom apartment in Sea Point with great potential for the discerning buyer. Well-positioned in one of Cape Town's most desirable coastal neighborhoods.",
+    description: "Welcome to Lisdale, where luxury meets the ocean's edge, offering an unparalleled lifestyle with panoramic sea views.",
     features: [
-      "Great Potential",
-      "2 Bedrooms",
-      "2 Bathrooms",
-      "Well-positioned",
-      "Desirable Location",
-      "Coastal Neighborhood"
+      "Beachfront Location",
+      "Panoramic Sea Views",
+      "Secure Double Garage",
+      "Pet Friendly",
+      "Underfloor Heating",
+      "High-end Kitchen"
     ],
     source: "property24",
     sourceUrl: "https://www.property24.com/for-sale/sea-point/cape-town/western-cape/11021/115005405",
