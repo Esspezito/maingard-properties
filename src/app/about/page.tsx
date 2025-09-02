@@ -26,10 +26,17 @@ export default function AboutPage() {
             animate={{ opacity: 1, y: 0 }}
             className="max-w-4xl mx-auto text-center"
           >
-            <Avatar className="h-32 w-32 mx-auto mb-6">
-              <AvatarImage src={agentProfile.profileImage} alt={agentProfile.name} />
-              <AvatarFallback>MM</AvatarFallback>
-            </Avatar>
+            <div className="relative w-32 h-32 mx-auto mb-6">
+              <Image
+                src={agentProfile.profileImage || '/mike-maingard.jpeg'}
+                alt={agentProfile.name}
+                fill
+                className="object-cover rounded-full border-4 border-primary/20 shadow-2xl"
+                style={{ objectPosition: '50% 30%' }}
+                priority
+              />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-t from-primary/20 to-transparent" />
+            </div>
             
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">{agentProfile.name}</h1>
             <p className="text-xl text-muted-foreground mb-2">{agentProfile.title}</p>

@@ -133,7 +133,7 @@ export default function Home() {
               transition={{ delay: 0.4, duration: 0.6 }}
               whileHover={{ letterSpacing: '0.02em' }}
             >
-              Explore {filteredProperties.length} exclusive properties in Cape Town's most sought-after locations
+              Explore exclusive properties in Cape Town's most sought-after locations
             </motion.p>
           </motion.div>
 

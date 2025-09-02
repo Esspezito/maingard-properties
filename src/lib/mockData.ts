@@ -63,35 +63,6 @@ export const mockProperties: Property[] = [
     agentContact: "+27 82 497 7888"
   },
   {
-    id: "116329989",
-    title: "Spacious Sea Point Apartment - Renovator's Dream",
-    price: "R 7,995,000",
-    location: "Sea Point, Cape Town",
-    bedrooms: 3,
-    bathrooms: 2.5,
-    area: "155 m²",
-    type: "Apartment",
-    status: "available",
-    images: [
-      "https://images.prop24.com/363165824/Crop600x400",
-      "https://images.prop24.com/363165825/Crop600x400",
-      "https://images.prop24.com/363165826/Crop600x400"
-    ],
-    description: "Located in the heart of Sea Point, this spacious 155 sqm apartment offers a rare opportunity to create your dream home. With breathtaking views and potential for modern finishes throughout, this property represents exceptional value in one of Cape Town's most sought-after neighborhoods.",
-    features: [
-      "Ocean Views",
-      "Renovator's Dream",
-      "3 Bedrooms",
-      "2.5 Bathrooms",
-      "Prime Location",
-      "Spacious Layout"
-    ],
-    source: "property24",
-    sourceUrl: "https://www.property24.com/for-sale/sea-point/cape-town/western-cape/11021/116329989",
-    agentName: "Michael Maingard",
-    agentContact: "+27 82 497 7888"
-  },
-  {
     id: "115918489",
     title: "Beautifully Finished Apartment in SIX ON N Development",
     price: "R 2,695,000",
@@ -100,7 +71,7 @@ export const mockProperties: Property[] = [
     bathrooms: 1,
     area: "35 m²",
     type: "Apartment",
-    status: "under-offer",
+    status: "available",
     images: [
       "https://images.prop24.com/350908862/Crop600x400",
       "https://images.prop24.com/350908863/Crop600x400",
@@ -129,7 +100,7 @@ export const mockProperties: Property[] = [
     bathrooms: 1,
     area: "89 m²",
     type: "Apartment",
-    status: "under-offer",
+    status: "available",
     images: [
       "https://images.prop24.com/355723549/Crop600x400",
       "https://images.prop24.com/355723550/Crop600x400",
@@ -175,6 +146,93 @@ export const mockProperties: Property[] = [
     ],
     source: "property24",
     sourceUrl: "https://www.property24.com/for-sale/green-point/cape-town/western-cape/11017/115896136",
+    agentName: "Michael Maingard",
+    agentContact: "+27 82 497 7888"
+  },
+  {
+    id: "115547249",
+    title: "Prime Sea Point Apartment with Modern Finishes",
+    price: "R 3,200,000",
+    location: "Sea Point, Cape Town",
+    bedrooms: 2,
+    bathrooms: 1,
+    area: "75 m²",
+    type: "Apartment",
+    status: "available",
+    images: [
+      "https://images.prop24.com/340123456/Crop600x400",
+      "https://images.prop24.com/340123457/Crop600x400",
+      "https://images.prop24.com/340123458/Crop600x400"
+    ],
+    description: "Modern 2-bedroom apartment in prime Sea Point location. Features contemporary finishes, great natural light, and close proximity to the beachfront promenade and local amenities.",
+    features: [
+      "Modern Finishes",
+      "2 Bedrooms",
+      "Prime Location",
+      "Close to Beach",
+      "Natural Light",
+      "Sea Point Promenade"
+    ],
+    source: "property24",
+    sourceUrl: "https://www.property24.com/for-sale/sea-point/cape-town/western-cape/11021/115547249",
+    agentName: "Michael Maingard",
+    agentContact: "+27 82 497 7888"
+  },
+  {
+    id: "115547283",
+    title: "Stylish Sea Point Living with Urban Convenience",
+    price: "R 2,850,000",
+    location: "Sea Point, Cape Town",
+    bedrooms: 1,
+    bathrooms: 1,
+    area: "52 m²",
+    type: "Apartment",
+    status: "available",
+    images: [
+      "https://images.prop24.com/340234567/Crop600x400",
+      "https://images.prop24.com/340234568/Crop600x400",
+      "https://images.prop24.com/340234569/Crop600x400"
+    ],
+    description: "Stylish 1-bedroom apartment offering the perfect blend of coastal living and urban convenience. Ideal for young professionals or as a rental investment in Sea Point's vibrant neighborhood.",
+    features: [
+      "Stylish Design",
+      "Urban Convenience",
+      "Coastal Living",
+      "Investment Potential",
+      "Young Professionals",
+      "Vibrant Neighborhood"
+    ],
+    source: "property24",
+    sourceUrl: "https://www.property24.com/for-sale/sea-point/cape-town/western-cape/11021/115547283",
+    agentName: "Michael Maingard",
+    agentContact: "+27 82 497 7888"
+  },
+  {
+    id: "115005405",
+    title: "Exceptional Sea Point Opportunity with Great Potential",
+    price: "R 3,750,000",
+    location: "Sea Point, Cape Town",
+    bedrooms: 2,
+    bathrooms: 2,
+    area: "95 m²",
+    type: "Apartment",
+    status: "available",
+    images: [
+      "https://images.prop24.com/335789123/Crop600x400",
+      "https://images.prop24.com/335789124/Crop600x400",
+      "https://images.prop24.com/335789125/Crop600x400"
+    ],
+    description: "Exceptional 2-bedroom apartment in Sea Point with great potential for the discerning buyer. Well-positioned in one of Cape Town's most desirable coastal neighborhoods.",
+    features: [
+      "Great Potential",
+      "2 Bedrooms",
+      "2 Bathrooms",
+      "Well-positioned",
+      "Desirable Location",
+      "Coastal Neighborhood"
+    ],
+    source: "property24",
+    sourceUrl: "https://www.property24.com/for-sale/sea-point/cape-town/western-cape/11021/115005405",
     agentName: "Michael Maingard",
     agentContact: "+27 82 497 7888"
   }

@@ -92,17 +92,13 @@ export default function PropertyCard({ property, index = 0 }: PropertyCardProps)
         <CardFooter className="p-4 pt-0">
           <Button 
             className="w-full group/btn" 
-            asChild
+            onClick={() => {
+              // Open in new tab using redirect API to avoid referrer issues
+              window.open(`/api/redirect?url=${encodeURIComponent(property.sourceUrl)}`, '_blank');
+            }}
           >
-            <a 
-              href={property.sourceUrl} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center justify-center"
-            >
-              View on {property.source === 'property24' ? 'Property24' : 'Private Property'}
-              <ExternalLink className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
-            </a>
+            View on {property.source === 'property24' ? 'Property24' : 'Private Property'}
+            <ExternalLink className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
           </Button>
         </CardFooter>
       </Card>
