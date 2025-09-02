@@ -49,11 +49,10 @@ export default function Hero({ agentName, agentTitle, agentCompany, agentPhone, 
           >
             <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto">
               <Image
-                src="/mike-maingard.jpeg"
-                alt="Mike Maingard - Real Estate Professional"
+                src="/michael.png"
+                alt="Michael Maingard - Real Estate Professional"
                 fill
                 className="object-cover rounded-full border-4 border-white/20 shadow-2xl"
-                style={{ objectPosition: '50% 30%' }}
                 priority
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-t from-primary/20 to-transparent" />

@@ -28,11 +28,10 @@ export default function AboutPage() {
           >
             <div className="relative w-32 h-32 mx-auto mb-6">
               <Image
-                src={agentProfile.profileImage || '/mike-maingard.jpeg'}
+                src="/michael.png"
                 alt={agentProfile.name}
                 fill
                 className="object-cover rounded-full border-4 border-primary/20 shadow-2xl"
-                style={{ objectPosition: '50% 30%' }}
                 priority
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-t from-primary/20 to-transparent" />

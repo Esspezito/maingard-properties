@@ -23,7 +23,7 @@ export const agentProfile: AgentProfile = {
     "Bantry Bay",
     "Atlantic Seaboard"
   ],
-  profileImage: "/mike-maingard.jpeg",
+  profileImage: "/michael.png",
   achievements: [
     "Part of Christie's International Real Estate network",
     "Specialist in properties ranging from R2.6M to R95M",
