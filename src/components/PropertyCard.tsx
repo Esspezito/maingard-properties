@@ -4,10 +4,11 @@ import { Property } from '@/types/property';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Bed, Bath, Maximize2, MapPin, ExternalLink } from 'lucide-react';
+import { Bed, Bath, Maximize2, MapPin, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 interface PropertyCardProps {
   property: Property;
@@ -15,10 +16,22 @@ interface PropertyCardProps {
 }
 
 export default function PropertyCard({ property, index = 0 }: PropertyCardProps) {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  
   const statusColors = {
     'available': 'bg-green-500',
     'under-offer': 'bg-yellow-500',
     'sold': 'bg-red-500'
+  };
+
+  const nextImage = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev + 1) % property.images.length);
+  };
+
+  const prevImage = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev - 1 + property.images.length) % property.images.length);
   };
 
   return (
@@ -32,19 +45,65 @@ export default function PropertyCard({ property, index = 0 }: PropertyCardProps)
       <Card className="overflow-hidden h-full flex flex-col group cursor-pointer">
         <div className="relative h-64 overflow-hidden">
           <Image
-            src={property.images[0]}
+            src={property.images[currentImageIndex]}
             alt={property.title}
             fill
             className="object-cover group-hover:scale-110 transition-transform duration-500"
           />
+          
+          {/* Navigation arrows - only show if more than 1 image */}
+          {property.images.length > 1 && (
+            <>
+              <button
+                onClick={prevImage}
+                className="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-all duration-200 opacity-0 group-hover:opacity-100"
+                aria-label="Previous image"
+              >
+                <ChevronLeft className="h-4 w-4" />
+              </button>
+              <button
+                onClick={nextImage}
+                className="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-all duration-200 opacity-0 group-hover:opacity-100"
+                aria-label="Next image"
+              >
+                <ChevronRight className="h-4 w-4" />
+              </button>
+              
+              {/* Image indicators */}
+              <div className="absolute bottom-16 left-1/2 -translate-x-1/2 z-20 flex space-x-2">
+                {property.images.map((_, idx) => (
+                  <button
+                    key={idx}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setCurrentImageIndex(idx);
+                    }}
+                    className={`w-2 h-2 rounded-full transition-all duration-200 ${
+                      idx === currentImageIndex ? 'bg-white' : 'bg-white/50 hover:bg-white/75'
+                    }`}
+                    aria-label={`Go to image ${idx + 1}`}
+                  />
+                ))}
+              </div>
+            </>
+          )}
+          
           <div className="absolute top-4 left-4 z-10 space-x-2">
             <Badge className={`${statusColors[property.status || 'available']} text-white`}>
               {property.status === 'under-offer' ? 'Under Offer' : property.status || 'Available'}
             </Badge>
             <Badge variant="secondary" className="bg-white/90">
-              {property.source === 'property24' ? 'Property24' : 'Private Property'}
+              {property.source === 'property24' ? 'Property24' : property.source === 'greeff' ? 'Greeff' : 'Private Property'}
             </Badge>
           </div>
+          
+          {/* Image counter */}
+          {property.images.length > 1 && (
+            <div className="absolute top-4 right-4 z-10 bg-black/50 text-white px-2 py-1 rounded text-sm">
+              {currentImageIndex + 1} / {property.images.length}
+            </div>
+          )}
+          
           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
             <h3 className="text-2xl font-bold text-white">{property.price}</h3>
           </div>
@@ -97,7 +156,7 @@ export default function PropertyCard({ property, index = 0 }: PropertyCardProps)
               window.open(`/api/redirect?url=${encodeURIComponent(property.sourceUrl)}`, '_blank');
             }}
           >
-            View on {property.source === 'property24' ? 'Property24' : 'Private Property'}
+            View on {property.source === 'property24' ? 'Property24' : property.source === 'greeff' ? 'Greeff' : 'Private Property'}
             <ExternalLink className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
           </Button>
         </CardFooter>

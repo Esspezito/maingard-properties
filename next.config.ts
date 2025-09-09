@@ -11,6 +11,14 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'images.prop24.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.greeff.co.za',
+      },
+      {
+        protocol: 'https',
+        hostname: 'd21tw07c6rnmp0.cloudfront.net',
+      },
     ],
   },
 };
