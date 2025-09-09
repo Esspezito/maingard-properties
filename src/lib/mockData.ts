@@ -294,7 +294,6 @@ export const mockProperties: Property[] = [
     "location": "Sea Point, Cape Town",
     "bedrooms": 1,
     "bathrooms": 1,
-    "area": null,
     "type": "Apartment",
     "status": "under-offer",
     "images": [
@@ -1142,7 +1141,6 @@ export const mockProperties: Property[] = [
     "location": "Sea Point, Cape Town",
     "bedrooms": 3,
     "bathrooms": 3.5,
-    "area": null,
     "type": "Apartment",
     "status": "available",
     "images": [

@@ -1,0 +1,129 @@
+{
+  "timestamp": "2025-09-09T08:21:11.952Z",
+  "totalProperties": 23,
+  "statusSummary": {
+    "available": 7,
+    "under-offer": 14,
+    "sold": 1,
+    "withdrawn": 0,
+    "unknown": 1
+  },
+  "properties": [
+    {
+      "id": "2841345",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/apartment/2841345/",
+      "status": "available"
+    },
+    {
+      "id": "2828300",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/apartment/2828300/",
+      "status": "available"
+    },
+    {
+      "id": "2826904",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/camps-bay/house/2826904/",
+      "status": "available"
+    },
+    {
+      "id": "1213815",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/bantry-bay/house/1213815/196-kloof-road/",
+      "status": "sold"
+    },
+    {
+      "id": "2531976",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/green-point/apartment/2531976/",
+      "status": "under-offer"
+    },
+    {
+      "id": "2435256",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/apartment/2435256/",
+      "status": "under-offer"
+    },
+    {
+      "id": "2416459",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/green-point/apartment/2416459/",
+      "status": "available"
+    },
+    {
+      "id": "2416445",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/apartment/2416445/",
+      "status": "under-offer"
+    },
+    {
+      "id": "2388674",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/studio-apartment/2388674/",
+      "status": "under-offer"
+    },
+    {
+      "id": "2266514",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/apartment/2266514/",
+      "status": "under-offer"
+    },
+    {
+      "id": "2266459",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/apartment/2266459/",
+      "status": "under-offer"
+    },
+    {
+      "id": "1212138",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/green-point/house/1212138/",
+      "status": "unknown",
+      "error": "Navigation timeout of 60000 ms exceeded"
+    },
+    {
+      "id": "1860791",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/house/1860791/",
+      "status": "under-offer"
+    },
+    {
+      "id": "1850150",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/apartment/1850150/",
+      "status": "under-offer"
+    },
+    {
+      "id": "1814864",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/apartment/1814864/",
+      "status": "under-offer"
+    },
+    {
+      "id": "1777419",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/apartment/1777419/",
+      "status": "under-offer"
+    },
+    {
+      "id": "1775642",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/green-point/apartment/1775642/",
+      "status": "under-offer"
+    },
+    {
+      "id": "1769944",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/mouille-point/apartment/1769944/",
+      "status": "available"
+    },
+    {
+      "id": "1555722",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/apartment/1555722/",
+      "status": "under-offer"
+    },
+    {
+      "id": "1447261",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/green-point/house/1447261/",
+      "status": "under-offer"
+    },
+    {
+      "id": "1292598",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/sectional-title/1292598/",
+      "status": "under-offer"
+    },
+    {
+      "id": "1234603",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/three-anchor-bay/apartment/1234603/",
+      "status": "available"
+    },
+    {
+      "id": "1102417",
+      "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/sea-point/apartment/1102417/",
+      "status": "available"
+    }
+  ]
+}
