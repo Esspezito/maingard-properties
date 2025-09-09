@@ -31,7 +31,7 @@ export default function AboutPage() {
                 src="/michael.png"
                 alt={agentProfile.name}
                 fill
-                className="object-cover rounded-full border-4 border-primary/20 shadow-2xl"
+                className="object-contain rounded-full border-4 border-primary/20 shadow-2xl"
                 priority
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-t from-primary/20 to-transparent" />

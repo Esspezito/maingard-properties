@@ -52,7 +52,7 @@ export default function Hero({ agentName, agentTitle, agentCompany, agentPhone, 
                 src="/michael.png"
                 alt="Michael Maingard - Real Estate Professional"
                 fill
-                className="object-cover rounded-full border-4 border-white/20 shadow-2xl"
+                className="object-contain rounded-full border-4 border-white/20 shadow-2xl"
                 priority
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-t from-primary/20 to-transparent" />

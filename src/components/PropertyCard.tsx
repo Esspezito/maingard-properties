@@ -68,23 +68,6 @@ export default function PropertyCard({ property, index = 0 }: PropertyCardProps)
               >
                 <ChevronRight className="h-4 w-4" />
               </button>
-              
-              {/* Image indicators */}
-              <div className="absolute bottom-16 left-1/2 -translate-x-1/2 z-20 flex space-x-2">
-                {property.images.map((_, idx) => (
-                  <button
-                    key={idx}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setCurrentImageIndex(idx);
-                    }}
-                    className={`w-2 h-2 rounded-full transition-all duration-200 ${
-                      idx === currentImageIndex ? 'bg-white' : 'bg-white/50 hover:bg-white/75'
-                    }`}
-                    aria-label={`Go to image ${idx + 1}`}
-                  />
-                ))}
-              </div>
             </>
           )}
           
