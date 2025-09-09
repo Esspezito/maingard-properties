@@ -7,7 +7,7 @@ export const agentProfile: AgentProfile = {
   phone: "+27 82 497 7888",
   email: "michael@greeff.co.za",
   officePhone: "+27 21 763 4120",
-  address: "Greeff House, 262 Main Road, Kenilworth, Cape Town, 7708",
+  address: "96 Kloof St, Gardens, Cape Town, 8001",
   bio: "Michael Maingard is a distinguished real estate professional specializing in Cape Town's prestigious Atlantic Seaboard. With a deep understanding of the luxury property market and backed by Christie's International Real Estate network, Michael combines refined international standards with unparalleled local market expertise. His philosophy centers on working with the best in the business, ensuring clients receive exceptional service in their property journey.",
   specializations: [
     "Luxury Apartments",
