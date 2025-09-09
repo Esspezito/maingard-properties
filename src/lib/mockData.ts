@@ -84,7 +84,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 2.5,
     "area": "155.00 m²",
     "type": "Apartment",
-    "status": "under-offer",
+    "status": "available",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_8a5a376eb2124240a7bba3c83eccf62f_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_47ae1e6757134ddb9db2054bb6ed95df_t_w_1440_h_900.avif",
@@ -252,7 +252,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 1,
     "area": "78.00 m²",
     "type": "Apartment",
-    "status": "available",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/6/49_52af154f547047698f4785d6ae5672ce_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/6/49_1b11508568c647d3954744e591f2f73c_t_w_1440_h_900.avif",
@@ -392,7 +392,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 1,
     "area": "89.00 m²",
     "type": "Apartment",
-    "status": "sold",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_28c35bbce8094cd1a1df0f292500ad7e_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_7bb310dec9c142c7824ccee1be9a81de_t_w_1440_h_900.avif",
@@ -430,7 +430,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 1,
     "area": "31.00 m²",
     "type": "Studio",
-    "status": "available",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_99597f7caa8548e88d3e009d87bfe17c_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_bae4df5f203f41f7a36bdf04e5a5eeaf_t_w_1440_h_900.avif",
@@ -517,7 +517,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 1,
     "area": "43.00 m²",
     "type": "Apartment",
-    "status": "available",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_ca2e1b5ab91d4b60ab137f07fe1a3049_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_8579e567f8704b319aa5fccc130326f9_t_w_1440_h_900.avif",
@@ -561,7 +561,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 4,
     "area": "471.00 m²",
     "type": "House",
-    "status": "sold",
+    "status": "available",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_501f661990e64172b4fddd383393a343_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_19037b0b432d4fa48abe313940cd270d_t_w_1440_h_900.avif",
@@ -625,7 +625,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 3,
     "area": "156.00 m²",
     "type": "House",
-    "status": "available",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_0b37b85c9f4e404b8d4ea9ca970a9fd3_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_103c8c48b22446c39026530a34ed2235_t_w_1440_h_900.avif",
@@ -675,7 +675,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 1,
     "area": "82.00 m²",
     "type": "Apartment",
-    "status": "available",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_803d857e3275454f98f11dbdff5162fb_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_f507d0ba2652470199940eacf120a886_t_w_1440_h_900.avif",
@@ -790,7 +790,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 2,
     "area": "154.00 m²",
     "type": "Apartment",
-    "status": "available",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_a4f8e99516a14f0b80a02e735c4de686_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_0fc01df946b2439b9f39b797424ddcc7_t_w_1440_h_900.avif",
@@ -831,7 +831,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 1.5,
     "area": "113.00 m²",
     "type": "Apartment",
-    "status": "sold",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_8cf4d538edc340c199b803fe5cb73bfa_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_f116d8cc3acc4bbf8e2e1569dd06c543_t_w_1440_h_900.avif",
@@ -969,7 +969,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 2,
     "area": "168.00 m²",
     "type": "House",
-    "status": "available",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_66c01f6735e74cf0a74487a4b1c99732_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_604a17b8a0fc46d190e2b76a461e4466_t_w_1440_h_900.avif",
@@ -1023,7 +1023,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 2.5,
     "area": "103.00 m²",
     "type": "Apartment",
-    "status": "available",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_4a9f802a7585468982ac2844f68dee57_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_5ea15a87d7fe486594a1b27a58b99f8e_t_w_1440_h_900.avif",
@@ -1081,7 +1081,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 2,
     "area": "186.00 m²",
     "type": "Apartment",
-    "status": "sold",
+    "status": "available",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_790f78613bfe406684eba34d97a9ea56_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_b8b60839e6344f63877706348c2e511c_t_w_1440_h_900.avif",
