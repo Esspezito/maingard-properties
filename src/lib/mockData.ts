@@ -84,7 +84,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 2.5,
     "area": "155.00 m²",
     "type": "Apartment",
-    "status": "available",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_8a5a376eb2124240a7bba3c83eccf62f_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_47ae1e6757134ddb9db2054bb6ed95df_t_w_1440_h_900.avif",
@@ -167,7 +167,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 6,
     "area": "744.00 m²",
     "type": "House",
-    "status": "available",
+    "status": "sold",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/7/49_b68face2a95a422b9b9714dbf7f22de3_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/7/49_7d0551d7dea64284a7aace7a5d670238_t_w_1440_h_900.avif",
@@ -296,7 +296,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 1,
     "area": null,
     "type": "Apartment",
-    "status": "available",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_06207cf1caa547a7b215e234ebfa30be_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_3a8b56dd99e64d89a98b1f206b4e708a_t_w_1440_h_900.avif",
@@ -392,7 +392,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 1,
     "area": "89.00 m²",
     "type": "Apartment",
-    "status": "available",
+    "status": "sold",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_28c35bbce8094cd1a1df0f292500ad7e_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_7bb310dec9c142c7824ccee1be9a81de_t_w_1440_h_900.avif",
@@ -475,7 +475,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 2,
     "area": "80.00 m²",
     "type": "Apartment",
-    "status": "available",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_5915c3dbaf004448ae9bb717c3659101_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_f0019efec80f414ba2547c414287ef77_t_w_1440_h_900.avif",
@@ -561,7 +561,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 4,
     "area": "471.00 m²",
     "type": "House",
-    "status": "available",
+    "status": "sold",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_501f661990e64172b4fddd383393a343_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_19037b0b432d4fa48abe313940cd270d_t_w_1440_h_900.avif",
@@ -724,7 +724,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 2.5,
     "area": "151.00 m²",
     "type": "Apartment",
-    "status": "available",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_860f795c787748888bfaa0398bd9845d_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_38c593a1902b467192d9bd051ee86982_t_w_1440_h_900.avif",
@@ -831,7 +831,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 1.5,
     "area": "113.00 m²",
     "type": "Apartment",
-    "status": "available",
+    "status": "sold",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_8cf4d538edc340c199b803fe5cb73bfa_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_f116d8cc3acc4bbf8e2e1569dd06c543_t_w_1440_h_900.avif",
@@ -928,7 +928,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 2,
     "area": "149.00 m²",
     "type": "Apartment",
-    "status": "available",
+    "status": "under-offer",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_32f4e380bdf24ed0a3683a6c3e48f6c5_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_e12bcebb80474d69a440b66c8d7f0ca5_t_w_1440_h_900.avif",
@@ -1081,7 +1081,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 2,
     "area": "186.00 m²",
     "type": "Apartment",
-    "status": "available",
+    "status": "sold",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_790f78613bfe406684eba34d97a9ea56_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_b8b60839e6344f63877706348c2e511c_t_w_1440_h_900.avif",
