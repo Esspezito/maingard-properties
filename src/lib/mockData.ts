@@ -167,7 +167,7 @@ export const mockProperties: Property[] = [
     "bathrooms": 6,
     "area": "744.00 m²",
     "type": "House",
-    "status": "sold",
+    "status": "available",
     "images": [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/7/49_b68face2a95a422b9b9714dbf7f22de3_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/7/49_7d0551d7dea64284a7aace7a5d670238_t_w_1440_h_900.avif",

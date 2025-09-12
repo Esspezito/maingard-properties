@@ -2,9 +2,9 @@
   "timestamp": "2025-09-09T08:21:11.952Z",
   "totalProperties": 23,
   "statusSummary": {
-    "available": 7,
+    "available": 8,
     "under-offer": 14,
-    "sold": 1,
+    "sold": 0,
     "withdrawn": 0,
     "unknown": 1
   },
@@ -27,7 +27,7 @@
     {
       "id": "1213815",
       "url": "https://www.greeff.co.za/results/residential/for-sale/cape-town/bantry-bay/house/1213815/196-kloof-road/",
-      "status": "sold"
+      "status": "available"
     },
     {
       "id": "2531976",
