@@ -222,7 +222,7 @@ export default function Home() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.3 }}
               >
-                20+
+                6+
               </motion.h3>
               <p className="text-muted-foreground">Years Experience</p>
             </motion.div>
