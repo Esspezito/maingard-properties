@@ -23,6 +23,7 @@ export interface AgentProfile {
   company: string;
   phone: string;
   email: string;
+  instagram?: string;
   officePhone?: string;
   address?: string;
   bio: string;

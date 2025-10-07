@@ -87,6 +87,7 @@ export default function Home() {
         agentCompany={agentProfile.company}
         agentPhone={agentProfile.phone}
         agentEmail={agentProfile.email}
+        agentInstagram={agentProfile.instagram}
       />
 
       <section id="listings" className="py-16">
@@ -181,60 +182,60 @@ export default function Home() {
             className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
           >
             <motion.div
-              whileHover={{ scale: 1.1, rotateZ: 2 }}
+              whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <motion.h3 
+              <motion.h3
                 className="text-3xl font-bold text-primary"
-                initial={{ scale: 0 }}
-                whileInView={{ scale: 1 }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ type: "spring", delay: 0.1 }}
+                transition={{ delay: 0.1 }}
               >
                 R2.6M+
               </motion.h3>
               <p className="text-muted-foreground">Starting From</p>
             </motion.div>
             <motion.div
-              whileHover={{ scale: 1.1, rotateZ: -2 }}
+              whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <motion.h3 
+              <motion.h3
                 className="text-3xl font-bold text-primary"
-                initial={{ scale: 0 }}
-                whileInView={{ scale: 1 }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ type: "spring", delay: 0.2 }}
+                transition={{ delay: 0.2 }}
               >
                 R95M
               </motion.h3>
               <p className="text-muted-foreground">Luxury Estates</p>
             </motion.div>
             <motion.div
-              whileHover={{ scale: 1.1, rotateZ: 2 }}
+              whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <motion.h3 
+              <motion.h3
                 className="text-3xl font-bold text-primary"
-                initial={{ scale: 0 }}
-                whileInView={{ scale: 1 }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ type: "spring", delay: 0.3 }}
+                transition={{ delay: 0.3 }}
               >
                 20+
               </motion.h3>
               <p className="text-muted-foreground">Years Experience</p>
             </motion.div>
             <motion.div
-              whileHover={{ scale: 1.1, rotateZ: -2 }}
+              whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <motion.h3 
+              <motion.h3
                 className="text-3xl font-bold text-primary"
-                initial={{ scale: 0 }}
-                whileInView={{ scale: 1 }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ type: "spring", delay: 0.4 }}
+                transition={{ delay: 0.4 }}
               >
                 100%
               </motion.h3>
@@ -249,7 +250,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center">
             <p className="text-muted-foreground">
-              © 2024 {agentProfile.name} - {agentProfile.company}
+              © Michael Maingard properties - particle.is
             </p>
           </div>
         </div>

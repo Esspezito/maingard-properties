@@ -6,6 +6,7 @@ export const agentProfile: AgentProfile = {
   company: "Greeff Christie's International Real Estate",
   phone: "+27 82 497 7888",
   email: "michael@greeff.co.za",
+  instagram: "@greeff_atlantic_seaboard",
   officePhone: "+27 21 763 4120",
   address: "96 Kloof St, Gardens, Cape Town, 8001",
   bio: "Michael Maingard is a distinguished real estate professional specializing in Cape Town's prestigious Atlantic Seaboard. With a deep understanding of the luxury property market and backed by Christie's International Real Estate network, Michael combines refined international standards with unparalleled local market expertise. His philosophy centers on working with the best in the business, ensuring clients receive exceptional service in their property journey.",
@@ -17,8 +18,12 @@ export const agentProfile: AgentProfile = {
     "High-End Residential Sales"
   ],
   areas: [
+    "Three Anchor Bay",
+    "Mouille Point",
+    "Fresnaye",
+    "Clifton",
     "Sea Point",
-    "Green Point", 
+    "Green Point",
     "Camps Bay",
     "Bantry Bay",
     "Atlantic Seaboard"
@@ -44,9 +49,9 @@ export const mockProperties: Property[] = [
     "type": "Apartment",
     "status": "available",
     "images": [
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_dba0f4bbd12441f9a644e64ffd6b7a79_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_e3491d102f22430298901cdc6f5d2737_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_4cf0c3c2b8254e5a9cf7eec0e179b198_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_dba0f4bbd12441f9a644e64ffd6b7a79_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_806b5a8fc4954aaaadd0af04ed8fc1f2_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_9850fc1bd51f45a6935066ce57a1078b_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_c3556029f3a948439c7be404c7df3e21_t_w_1440_h_900.avif",
@@ -86,9 +91,9 @@ export const mockProperties: Property[] = [
     "type": "Apartment",
     "status": "available",
     "images": [
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_d5d3e2bf91fd4bb3b8555faba70a1d21_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_8a5a376eb2124240a7bba3c83eccf62f_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_47ae1e6757134ddb9db2054bb6ed95df_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_d5d3e2bf91fd4bb3b8555faba70a1d21_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_1a0e6cc719d542dbabe8c637b2874458_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_36cd9a32e5524b33a7eeafaf7a675516_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_aa02713446f94b78b8ed53aeb78e6db3_t_w_1440_h_900.avif",
@@ -117,9 +122,9 @@ export const mockProperties: Property[] = [
     "type": "House",
     "status": "available",
     "images": [
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_c18863548a6540f289e6e17bc15d6321_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_2566485d745540d8a288bd1a3adc95f0_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_11c2333cd0114410a70810310dcefd64_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_c18863548a6540f289e6e17bc15d6321_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_ee77049faa0348558a96a32919f13851_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_10e55d50a824429d8ab14a6886210634_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/8/49_7baa600f0cf543e3b7c01d67f74292ce_t_w_1440_h_900.avif",
@@ -169,9 +174,9 @@ export const mockProperties: Property[] = [
     "type": "House",
     "status": "available",
     "images": [
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/7/49_e255c2bf3cbb40e5ade5aef82761a959_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/7/49_b68face2a95a422b9b9714dbf7f22de3_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/7/49_7d0551d7dea64284a7aace7a5d670238_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/7/49_e255c2bf3cbb40e5ade5aef82761a959_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/7/49_a43d24e210df4ef8ae7e2d650caaeaf6_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/7/49_8f5ff360b2514609b28f7aacc2f47a49_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/7/49_2f1902ccb55d473c91dcd116efa66d05_t_w_1440_h_900.avif",
@@ -254,9 +259,9 @@ export const mockProperties: Property[] = [
     "type": "Apartment",
     "status": "under-offer",
     "images": [
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/6/49_2fd0e5c7650d41f7b429bfc623755919_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/6/49_52af154f547047698f4785d6ae5672ce_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/6/49_1b11508568c647d3954744e591f2f73c_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/6/49_2fd0e5c7650d41f7b429bfc623755919_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/6/49_928e53b67c26487b86968efd43f1c8bf_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/6/49_1d156851bce64e3fb232424ec5bdbd8f_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/6/49_a03d8aedaad041fd9d4c28010d56ff49_t_w_1440_h_900.avif",
@@ -296,10 +301,9 @@ export const mockProperties: Property[] = [
     "bathrooms": 1,
     "type": "Apartment",
     "status": "under-offer",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_06207cf1caa547a7b215e234ebfa30be_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_4d74d78ef4474a9e913792d62d114863_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_06207cf1caa547a7b215e234ebfa30be_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_3a8b56dd99e64d89a98b1f206b4e708a_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_4d74d78ef4474a9e913792d62d114863_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_f2b2e09c1f91441f912535f1445a5c97_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_f9bc12552c0d49a0b576950fc21ec6d3_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_7cee460ad30e479da31c1dc1933a5a7a_t_w_1440_h_900.avif",
@@ -319,8 +323,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_cad6f1d4fcf64a468846ce12c12bbbac_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_7a55166803eb4ba8864970a206371e35_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_23cd2602dd534d6fbe33aef0a8187f5e_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_df5da81935ee4672aba1c4af3f8dd8a9_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_df5da81935ee4672aba1c4af3f8dd8a9_t_w_1440_h_900.avif"],
     "description": "These cookies are used to collect information about how you interact with our website and allow us to remember you.",
     "features": [
       "Modern Property",
@@ -341,10 +344,9 @@ export const mockProperties: Property[] = [
     "area": "118.00 m²",
     "type": "Apartment",
     "status": "available",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_f854f5edf8fe426ba9c300148491096c_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_203381cc501e4bb28a2af1b77cc19da0_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_f854f5edf8fe426ba9c300148491096c_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_c718a3e2e41a49ec952493802b068e9b_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_203381cc501e4bb28a2af1b77cc19da0_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_d35f1f14f99746d7838e95db96f97211_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_9b15e6ea22924574a2b4a4e26c84779c_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_8594fa5b62ef4a4a892f0be44adecbdb_t_w_1440_h_900.avif",
@@ -371,8 +373,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_51fb6dbbcb2e4d3a8407277742a232ec_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_f1aad85c7d4f434e9aebb1040ce43e5b_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_3982e477a5914032a4908caf30b435e1_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_a653778425364487a2e5bf29ee82c9c6_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_a653778425364487a2e5bf29ee82c9c6_t_w_1440_h_900.avif"],
     "description": "These cookies are used to collect information about how you interact with our website and allow us to remember you.",
     "features": [
       "Sea Views"
@@ -392,10 +393,9 @@ export const mockProperties: Property[] = [
     "area": "89.00 m²",
     "type": "Apartment",
     "status": "under-offer",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_28c35bbce8094cd1a1df0f292500ad7e_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_dd178d86932449388cc337bb02de522e_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_28c35bbce8094cd1a1df0f292500ad7e_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_7bb310dec9c142c7824ccee1be9a81de_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_dd178d86932449388cc337bb02de522e_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_552ae5b041144b3097732306638ab6e6_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_6e3f42b6651e4e2eafbe5303a4e9d1b8_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_8ec7e1684b3a49cf9dd402e7a9bde6c9_t_w_1440_h_900.avif",
@@ -408,8 +408,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_6641fea9c2154a9d84010c618a86bbbe_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_c9c4f7558ae04d0eb7a41fde68e7de2e_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_1f18d5ca2d6746ea80de7510eb934974_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_f357f187d146461bb11f615ce7294f84_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_f357f187d146461bb11f615ce7294f84_t_w_1440_h_900.avif"],
     "description": "These cookies are used to collect information about how you interact with our website and allow us to remember you.",
     "features": [
       "Parking",
@@ -430,10 +429,9 @@ export const mockProperties: Property[] = [
     "area": "31.00 m²",
     "type": "Studio",
     "status": "under-offer",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_99597f7caa8548e88d3e009d87bfe17c_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_0cfd66b2e590446e8f6c388086353d2b_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_99597f7caa8548e88d3e009d87bfe17c_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_bae4df5f203f41f7a36bdf04e5a5eeaf_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_0cfd66b2e590446e8f6c388086353d2b_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_35660cbd88f24b898d0cecac1a6fdc83_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_8d6c8abda9ba4b9aa81162f7c42d9f9b_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_be5b7229a4634d5b8f781891cf0d4f66_t_w_1440_h_900.avif",
@@ -454,8 +452,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_1f8e5642110a40519e19329a7480d8f0_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_e0846ce9915942b2897bc240dffdf3e7_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_a0cfd07628d343118c68af0b011d047a_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_c735e63af9f240529e591b0f38974032_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/4/49_c735e63af9f240529e591b0f38974032_t_w_1440_h_900.avif"],
     "description": "These cookies are used to collect information about how you interact with our website and allow us to remember you.",
     "features": [
       "Rental Potential"
@@ -475,10 +472,9 @@ export const mockProperties: Property[] = [
     "area": "80.00 m²",
     "type": "Apartment",
     "status": "under-offer",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_5915c3dbaf004448ae9bb717c3659101_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_f3820011a7de48298c234ac8a0a52321_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_5915c3dbaf004448ae9bb717c3659101_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_f0019efec80f414ba2547c414287ef77_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_f3820011a7de48298c234ac8a0a52321_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_51ae5e0bfca047b492c6f4de89f2e7f6_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_f171cdf0871e44c78fca8f1ce99dfad7_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_3bb3c43554c044ef9f1bb1ee09b6bd63_t_w_1440_h_900.avif",
@@ -495,8 +491,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_52fa02cdbd1b43e1895509d12f9a5191_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_09cb8202fd5646289cb579eb87e87dd4_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_e6f69b31a2594e0384eb1ec1ea59f8c8_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_a8efd1e4fffb45ada7d07af1035c3357_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_a8efd1e4fffb45ada7d07af1035c3357_t_w_1440_h_900.avif"],
     "description": "These cookies are used to collect information about how you interact with our website and allow us to remember you.",
     "features": [
       "Balcony",
@@ -517,10 +512,9 @@ export const mockProperties: Property[] = [
     "area": "43.00 m²",
     "type": "Apartment",
     "status": "under-offer",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_ca2e1b5ab91d4b60ab137f07fe1a3049_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_e13ed09da1af40f8a795fe78825dc198_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_ca2e1b5ab91d4b60ab137f07fe1a3049_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_8579e567f8704b319aa5fccc130326f9_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_e13ed09da1af40f8a795fe78825dc198_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_bf0b5eaa03fb4c248ebdbb497401d0a1_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_d059417dca8e4b40a43362ffe88416bb_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_91f17f44968a46cc816426d42c8b5f4b_t_w_1440_h_900.avif",
@@ -538,8 +532,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_fd009f799b2540cabd325ddc22b23241_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_7f0a9b258fc84831952973ffc64006a7_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_15b0bc0cb1e641fdb8c0759acc8dd58d_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_bfd81c2948344e8992d0803043c62756_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/2/49_bfd81c2948344e8992d0803043c62756_t_w_1440_h_900.avif"],
     "description": "These cookies are used to collect information about how you interact with our website and allow us to remember you.",
     "features": [
       "Balcony",
@@ -561,10 +554,9 @@ export const mockProperties: Property[] = [
     "area": "471.00 m²",
     "type": "House",
     "status": "available",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_501f661990e64172b4fddd383393a343_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_15ff043c01a6475ea9cc370584ddb5ed_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_501f661990e64172b4fddd383393a343_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_19037b0b432d4fa48abe313940cd270d_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_15ff043c01a6475ea9cc370584ddb5ed_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_ef0cf5760abb45859811684f729c86b9_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_292c55d987674a738df4dc66cfea8c37_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_ec7a5f13174d43c58a0e23d646d467c0_t_w_1440_h_900.avif",
@@ -601,8 +593,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_5a96d0897cc6426a95c43f8dc4b63820_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_aa155644846d4b5babee5dada230196a_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_b4f3b676e2504988ab348521938b5a92_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_6c8702b7df334ef082c605506bc454fb_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2025/1/49_6c8702b7df334ef082c605506bc454fb_t_w_1440_h_900.avif"],
     "description": "Send\nPrint\nDownload brochure\nShare this listing\nOverview\nFeatures\nLocation\nFinance\nFive-Bedroom house in Green Point - perfect for luxury living with stunning views.",
     "features": [
       "Parking",
@@ -625,10 +616,9 @@ export const mockProperties: Property[] = [
     "area": "156.00 m²",
     "type": "House",
     "status": "under-offer",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_0b37b85c9f4e404b8d4ea9ca970a9fd3_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_47fa70d1824c44a08370dc362dacd325_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_0b37b85c9f4e404b8d4ea9ca970a9fd3_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_103c8c48b22446c39026530a34ed2235_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_47fa70d1824c44a08370dc362dacd325_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_182825d7c2e046b5b8dcd00081f5ace9_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_53b12ecde4e94e02b61bf517be422593_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_f10cd9a1d0234d0c8838e95c83a960b4_t_w_1440_h_900.avif",
@@ -651,8 +641,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_da7dcadb89c047489230553d35710ee1_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_99cec24d598f49858b75573ef865e709_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_98fbd5716d7442a0803e2ebbc58b38a8_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_0daffec327504b0b8484cee2fcd39fe7_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/12/49_0daffec327504b0b8484cee2fcd39fe7_t_w_1440_h_900.avif"],
     "description": "Send\nPrint\nDownload brochure\nShare this listing\nOverview\nFeatures\nFinance\nStylish Duplex with Garden and Pool.",
     "features": [
       "Swimming Pool",
@@ -675,10 +664,9 @@ export const mockProperties: Property[] = [
     "area": "82.00 m²",
     "type": "Apartment",
     "status": "under-offer",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_803d857e3275454f98f11dbdff5162fb_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_95ae5b6b18a241fcb9277941b7c0578c_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_803d857e3275454f98f11dbdff5162fb_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_f507d0ba2652470199940eacf120a886_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_95ae5b6b18a241fcb9277941b7c0578c_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_d0775253cc224572b20d4f7dcf2b0632_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_c2bee15c3a6d4e6c8e4b3cf5bc9278c7_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_62b4926b26b8488eb7f0ee4c366a809b_t_w_1440_h_900.avif",
@@ -702,8 +690,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_dd84bc4cd0464135b44c1888535f5339_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_12ea4e70a4f64614bc136bdc3e583826_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_e504f97af7a64984b3aefee40808666d_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_23c78fa0ffba4f07b17f87ed676d6740_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/11/49_23c78fa0ffba4f07b17f87ed676d6740_t_w_1440_h_900.avif"],
     "description": "Send\nPrint\nDownload brochure\nShare this listing\nOverview\nFeatures\nFinance\nSunny Sea Point apartment!\nWeb Ref.",
     "features": [
       "Modern Property",
@@ -724,10 +711,9 @@ export const mockProperties: Property[] = [
     "area": "151.00 m²",
     "type": "Apartment",
     "status": "under-offer",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_860f795c787748888bfaa0398bd9845d_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_57668dfd9296493aae423f9b8f75ce1a_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_860f795c787748888bfaa0398bd9845d_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_38c593a1902b467192d9bd051ee86982_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_57668dfd9296493aae423f9b8f75ce1a_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_609d39979f9742f7be6b31c83efa0e67_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_745f77cdf8d04cd2936c20fd07804cac_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_d618d00f84854b688951462ac682b1d2_t_w_1440_h_900.avif",
@@ -767,8 +753,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_f9e1fea97eb54e8194740d49b40e01d6_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_ce589fe1d6774e26af6435566d811fa3_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_4f3b8625b9c04da998ac75bafcdf4e15_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_266d880f28164e889a0f8004998a374a_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_266d880f28164e889a0f8004998a374a_t_w_1440_h_900.avif"],
     "description": "5\nBathrooms\n1\nGarages\nMichael Maingard\nRegistered with the PPRA | Property Practitioner\n\n\nView my listings\nRequest Info\nNewsletter\nProperty alerts\nWe will communicate real estate related marketing information and related services.",
     "features": [
       "Parking",
@@ -790,10 +775,9 @@ export const mockProperties: Property[] = [
     "area": "154.00 m²",
     "type": "Apartment",
     "status": "under-offer",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_a4f8e99516a14f0b80a02e735c4de686_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_0530c2cf619e41ee9463dbd988ce19b3_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_a4f8e99516a14f0b80a02e735c4de686_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_0fc01df946b2439b9f39b797424ddcc7_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_0530c2cf619e41ee9463dbd988ce19b3_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_f3f6c5be2d754c8a89674fd298b7130a_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_fe6f454c89984a08a55e8ba61f1e7f1a_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_c4f9df120ff74eb0b5eac06d44ebdddc_t_w_1440_h_900.avif",
@@ -808,8 +792,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_4cdbede4268f4f1f9cc7ac6179857c2a_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_b1de18afdc3d400695d878220d5975e8_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_b6e7a9d184454601aef5746f5cc9897e_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_e6e8ea75873d4dddbd8b6601fe950f9f_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/10/49_e6e8ea75873d4dddbd8b6601fe950f9f_t_w_1440_h_900.avif"],
     "description": "Send\nPrint\nDownload brochure\nShare this listing\nOverview\nFeatures\nFinance\nExquisite Beachfront Living with Unrivalled Elegance\nWeb Ref.",
     "features": [
       "Parking",
@@ -831,10 +814,9 @@ export const mockProperties: Property[] = [
     "area": "113.00 m²",
     "type": "Apartment",
     "status": "under-offer",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_8cf4d538edc340c199b803fe5cb73bfa_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_b6ebda582e0e4d4e80f1c3a3f1f2dc60_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_8cf4d538edc340c199b803fe5cb73bfa_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_f116d8cc3acc4bbf8e2e1569dd06c543_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_b6ebda582e0e4d4e80f1c3a3f1f2dc60_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_ba9f63cba99b4354b0667d80ba661975_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_b42eee6194e440e186f3cba70a3ab699_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_beb4b3f2db0f4b099882ac11545767a6_t_w_1440_h_900.avif",
@@ -854,8 +836,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_de051cb1ce7140bc85934072982cca41_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_d0671436b5c64f6f9789a92a0485c2cd_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_c16f41cc4a474f61bb13efd1b608ed94_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_17035312b8814881be7139e0cec2e570_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_17035312b8814881be7139e0cec2e570_t_w_1440_h_900.avif"],
     "description": "These cookies are used to collect information about how you interact with our website and allow us to remember you.",
     "features": [
       "Parking"
@@ -875,10 +856,9 @@ export const mockProperties: Property[] = [
     "area": "277.00 m²",
     "type": "Apartment",
     "status": "available",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_c9e4c0891ede43a7bb2de81d38e0d395_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_279fadff9ce34827ba8bd1f91a07fa66_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_c9e4c0891ede43a7bb2de81d38e0d395_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_da04baa032214d7b9b76ae87f13c1ccb_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_279fadff9ce34827ba8bd1f91a07fa66_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_1f196353708940579caa7583429ac58a_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_b42d04f1e15f466ab85ab3d4e797fa8c_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_d3d7ca9968d24181b85cb3ebebe906e4_t_w_1440_h_900.avif",
@@ -906,8 +886,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_f72f59521dd74626b07cde079015f92c_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_13b3611aa7224741a7f7180ecdb1e038_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_ab9e980be26c4296a2efe007a1ccf3d3_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_e8c0f2cac2894754a8848a54b8a7762b_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/9/49_e8c0f2cac2894754a8848a54b8a7762b_t_w_1440_h_900.avif"],
     "description": "These cookies are used to collect information about how you interact with our website and allow us to remember you.",
     "features": [
       "Parking",
@@ -928,10 +907,9 @@ export const mockProperties: Property[] = [
     "area": "149.00 m²",
     "type": "Apartment",
     "status": "under-offer",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_32f4e380bdf24ed0a3683a6c3e48f6c5_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_1bf06fd3ce3b41ca8664605880cde386_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_32f4e380bdf24ed0a3683a6c3e48f6c5_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_e12bcebb80474d69a440b66c8d7f0ca5_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_1bf06fd3ce3b41ca8664605880cde386_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_12d544a23d7e4935babfbf807781f3db_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_a46bd895eee34f129a0159c7d19f36e0_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_22f0b6de65c541ef985621fac3c33f7f_t_w_1440_h_900.avif",
@@ -948,8 +926,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_f0845799837e4c588745008c13d8093e_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_e20624ff679b404dac11d9daa55b8a19_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_4845c3b5bb9e4d1abc236c02f5af0756_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_3a62dd8d65094c3fab5575da18e247f4_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/7/49_3a62dd8d65094c3fab5575da18e247f4_t_w_1440_h_900.avif"],
     "description": "These cookies are used to collect information about how you interact with our website and allow us to remember you.",
     "features": [
       "Parking"
@@ -969,10 +946,9 @@ export const mockProperties: Property[] = [
     "area": "168.00 m²",
     "type": "House",
     "status": "under-offer",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_66c01f6735e74cf0a74487a4b1c99732_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_080672051cda4106bc8ecf93ebb27321_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_66c01f6735e74cf0a74487a4b1c99732_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_604a17b8a0fc46d190e2b76a461e4466_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_080672051cda4106bc8ecf93ebb27321_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_9c9f52de35d94a2b91cb8de932f157d6_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_e221c0f3e10c4afd9b9bca75a4ca4afe_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_ed911c741d204eb290da72b9035ed40d_t_w_1440_h_900.avif",
@@ -1002,8 +978,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_f4ad6869921740dc88d8919b883abb04_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_ca5b51119e0d47ce886408a52a39406f_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_ae64fcbdeee24504a24b121b01c18574_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_dbac4fc769894209a7bdac9fb51192f2_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/5/49_dbac4fc769894209a7bdac9fb51192f2_t_w_1440_h_900.avif"],
     "description": "These cookies are used to collect information about how you interact with our website and allow us to remember you.",
     "features": [
       "Parking"
@@ -1023,10 +998,9 @@ export const mockProperties: Property[] = [
     "area": "103.00 m²",
     "type": "Apartment",
     "status": "under-offer",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_4a9f802a7585468982ac2844f68dee57_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_b27064f2cf604842b1b5755c7869efbe_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_4a9f802a7585468982ac2844f68dee57_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_5ea15a87d7fe486594a1b27a58b99f8e_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_b27064f2cf604842b1b5755c7869efbe_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_a54c3d47848d4e758c2ff85601689ab6_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_c3357bccc3a54e90a2a08da810ed1933_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_9931462baa214269a63e005715115050_t_w_1440_h_900.avif",
@@ -1059,8 +1033,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_ba5f711afcb54c949a0becd810edb644_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_6780f5407f4f403db572732d4a460134_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_e36b304494b64677b1fb6486cbecbb3d_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_fc33e9e127e84934a2f4c6feb15d500b_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/3/49_fc33e9e127e84934a2f4c6feb15d500b_t_w_1440_h_900.avif"],
     "description": "These cookies are used to collect information about how you interact with our website and allow us to remember you.",
     "features": [
       "Modern Property",
@@ -1081,10 +1054,9 @@ export const mockProperties: Property[] = [
     "area": "186.00 m²",
     "type": "Apartment",
     "status": "available",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_790f78613bfe406684eba34d97a9ea56_t_w_1440_h_900.avif",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_6adbd2c555134d3f84f6b66615e574f4_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_790f78613bfe406684eba34d97a9ea56_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_b8b60839e6344f63877706348c2e511c_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_6adbd2c555134d3f84f6b66615e574f4_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_1b07f66408bf40ae894c7b785ad82510_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_2b5a467c578c47538188afe6729580fe_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_256c167d87b445418dcbdcb3063deec2_t_w_1440_h_900.avif",
@@ -1121,8 +1093,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_0914243146d249a3a3f0379f89c2b9fe_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_a4d8ff9ff1d6448c89873b2c9c4486ad_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_0a9e8708f5ca4c3ab071301cba1650ed_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_af5e9f4bbc9341ae9d1864c7fcbb1bfe_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2024/1/49_af5e9f4bbc9341ae9d1864c7fcbb1bfe_t_w_1440_h_900.avif"],
     "description": "These cookies are used to collect information about how you interact with our website and allow us to remember you.",
     "features": [
       "Parking",
@@ -1142,11 +1113,10 @@ export const mockProperties: Property[] = [
     "bedrooms": 3,
     "bathrooms": 3.5,
     "type": "Apartment",
-    "status": "available",
-    "images": [
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2023/10/49_f22e710f86ba4312b48e14cc93fe2fdb_t_w_1440_h_900.avif",
+    "status": "sold",
+    "images": [      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2023/9/49_9345d047330643fdb0be989aef6e2539_t_w_1440_h_900.avif",
+"https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2023/10/49_f22e710f86ba4312b48e14cc93fe2fdb_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2023/10/49_b839ec194d9b45faa7311cd6665a8355_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2023/9/49_9345d047330643fdb0be989aef6e2539_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2023/9/49_06121ff798604c1b80da95356dd497c0_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2023/9/49_af8f7b40f6a648aeaf78ac3ae2b3e285_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2023/9/49_b9a9c032681e4eb79256d141cd72e91b_t_w_1440_h_900.avif",
@@ -1167,8 +1137,7 @@ export const mockProperties: Property[] = [
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2023/9/49_fef1fd9eeee24d3c87d3cf40b5303b3e_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2023/10/49_161cbe1f908c4e9783c4add9e33349cf_t_w_1440_h_900.avif",
       "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2023/10/49_5393a86a0cd74d51a3c3023276695a54_t_w_1440_h_900.avif",
-      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2023/10/49_cd28c7d3036c4d62b2a5e1b8b005c1e1_t_w_1440_h_900.avif"
-    ],
+      "https://d21tw07c6rnmp0.cloudfront.net/media/uploads/49/residential/2023/10/49_cd28c7d3036c4d62b2a5e1b8b005c1e1_t_w_1440_h_900.avif"],
     "description": "These cookies are used to collect information about how you interact with our website and allow us to remember you.",
     "features": [
       "Modern Property",

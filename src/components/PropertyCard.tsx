@@ -20,7 +20,7 @@ export default function PropertyCard({ property, index = 0 }: PropertyCardProps)
   
   const statusColors = {
     'available': 'bg-green-500',
-    'under-offer': 'bg-yellow-500',
+    'under-offer': 'bg-orange-500',
     'sold': 'bg-red-500'
   };
 
@@ -73,7 +73,7 @@ export default function PropertyCard({ property, index = 0 }: PropertyCardProps)
           
           <div className="absolute top-4 left-4 z-10 space-x-2">
             <Badge className={`${statusColors[property.status || 'available']} text-white`}>
-              {property.status === 'under-offer' ? 'Under Offer' : property.status || 'Available'}
+              {property.status === 'under-offer' ? 'Under Offer' : property.status === 'sold' ? 'Sold' : 'Available'}
             </Badge>
             <Badge variant="secondary" className="bg-white/90">
               {property.source === 'property24' ? 'Property24' : property.source === 'greeff' ? 'Greeff' : 'Private Property'}
